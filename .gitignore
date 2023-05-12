@@ -1,0 +1,10 @@
+install/*
+*.o
+*~
+.vscode
+alltests-test.gcno
+*.gcov
+rapport.[pla]*
+rapport.toc
+rapport.out
+doc/*
