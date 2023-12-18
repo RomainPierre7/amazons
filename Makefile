@@ -53,6 +53,6 @@ cleanTest:
 	rm -f install/*.gcno install/*.gcda install/*.gcov install/alltests
 
 clean: cleanTest
-	@rm -rf *~ src/*~ install/* *.gcno *.gcov rapport.[pla]* rapport.toc *.gcda doc/*
+	@rm -rf *~ src/*~ install/* *.gcno *.gcov rapport.[plao]* rapport.toc *.gcda doc/*
 
 .PHONY: client install test clean doc
